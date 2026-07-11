@@ -3,7 +3,7 @@
 Jejak langkah pikiran yang sengaja dibiarkan tak beraturan. Sebuah perjalanan yang membawamu menyelami makna dalam satu waktu lalu merayakan hal-hal tak masuk akal di lembar berikutnya.
 
 <div class="nb-row">
-  <a href="./notes/prolog-dari-sebuah-akhir.md" class="nb-card">
+  <a href="./notes/prolog-dari-sebuah-akhir" class="nb-card">
     <div>
       <div class="nb-header">
         <i class="ph--note"></i>
