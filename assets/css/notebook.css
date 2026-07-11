@@ -7,6 +7,8 @@
 .nb-row {
   display: flex;
   flex-wrap: wrap;
+  text-decoration: none !important;
+  color: inherit !important;
   gap: 16px;
   margin: 20px 0;
   width: 100%;
@@ -18,7 +20,7 @@
   display: flex;
   flex: 1 1 calc(50% - 8px);
   min-width: 260px;
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit;
   background: #ffffff;
   
@@ -56,6 +58,7 @@
   letter-spacing: 0.05em;
   color: #526178;
   text-transform: uppercase;
+  text-decoration: none !important;
 }
 .nb-title {
   font-family: 'DM Sans', sans-serif !important;
@@ -69,6 +72,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-decoration: none !important;
 }
 .nb-summary {
   font-family: 'DM Sans', sans-serif !important;
@@ -83,6 +87,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-decoration: none !important;
 }
 /* https://phosphoricons.com */
 .ph--note {
@@ -94,6 +99,7 @@
   background-repeat: no-repeat;
   vertical-align: middle;
   flex-shrink: 0;
+  text-decoration: none !important;
 }
 
 /* 4. TAGS */
@@ -117,6 +123,7 @@
   border-color: #f1f5f9;
   padding: 2px 8px;
   border-radius: 5px;
+  text-decoration: none !important;
   transition: background 0.4s ease-in-out, border-color 0.4s ease-in-out;
 }
 .nb-card:hover .nb-tag {
