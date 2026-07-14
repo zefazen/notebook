@@ -1,0 +1,30 @@
+# ==========================================
+# IDENTITY
+# ==========================================
+title: "Notebook"
+title_separator: " — "
+description: "Jejak langkah pikiran tak beraturan, dari renungan makna hingga hal tak masuk akal."
+url: "https://zefazen.github.io"
+baseurl: "/notebook"
+favicon: "/assets/img/icon/favicon.ico" 
+# ==========================================
+# OPENGRAPH & SEO METADATA
+# ==========================================
+plugins:
+  - jekyll-seo-tag
+
+author:
+  name: "ZefaZen"
+
+image: 
+  path: "/assets/img/opengraph.JPG"
+  height: 630
+  width: 1200
+  alt: "Notebook by ZefaZen"
+# ==========================================
+# EXTRA
+# ==========================================
+lang: "id_ID"
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
