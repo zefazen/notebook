@@ -28,7 +28,7 @@ function randomNote() {
 
 // 2. Bagikan Halaman Ini
 function sharePage() {
-  const shareText = "✨ Jelajahi lembaran catatan digital ZefaZen di:";
+  const shareText = "Membaca lembaran yang sengaja dibiarkan terbuka tanpa garis pembatas. ZefaZen's Notebook:";
   const shareUrl = window.location.href;
   const fullCopyText = `${shareText} ${shareUrl}`;
   
