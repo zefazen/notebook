@@ -11,32 +11,34 @@ Narasi dan ilustrasinya begitu memikat hingga saya perlu mendokumentasikan dan m
 
 <hr>
 
-#### Serat Lakon #1
+<h4>Serat Lakon #1</h4>
+
+<br />
 
 <img src="./assets/img/anoman/serat-lakon-01.JPG" alt="Serat Lakon 1" style="width: 150px;height:150px;margin-bottom:5px;">
 
 <br />
 
-Prabu Ramawijaya duduk bersila di paseban istana. Sikapnya tenang, wibawanya memancar tanpa perlu ditampakkan. Namun, di balik keteduhan wajah sang Prabu, tersimpan kegelisahan yang tak terucap. Bayangan Dewi Sinta senantiasa hadir. la memahami benar, perang besar melawan Alengka tak dapat dimulai tanpa kepastian akan nasib sang pujaan hati.
+Prabu Ramawijaya duduk bersila di paseban istana. Sikapnya tenang, wibawanya memancar tanpa perlu ditampakkan. Namun, di balik keteduhan wajah sang Prabu, tersimpan kegelisahan yang tak terucap. Bayangan Dewi Sinta senantiasa hadir. la memahami benar, perang besar melawan Alengka tak dapat dimulai tanpa kepastian akan nasib sang pujaan hati. <br />
 
 <br />
 
-Maka, Prabu Ramawijaya memanggil Anoman menghadap.
+Maka, Prabu Ramawijaya memanggil Anoman menghadap. <br />
 
 <br />
 
-"Anoman, budhalo menyang Alengka. Tiliki kahanane Dewi Sinta."<br />
-(Anoman, pergilah ke Alengka. Periksalah keadaan Dewi Sinta.)
+"Anoman, budhalo menyang Alengka. Tiliki kahanane Dewi Sinta." <br />
+(Anoman, pergilah ke Alengka. Periksalah keadaan Dewi Sinta.) <br />
 
 <br />
 
-Anoman segera sembah bakti.<br />
-"Sendika dhawuh, Prabu."<br />
-(Perintah diterima, Prabu.)
+Anoman segera sembah bakti. <br />
+"Sendika dhawuh, Prabu." <br />
+(Perintah diterima, Prabu.) <br />
 
 <br />
 
-Sebelum memulai perjalanannya, Anoman memanggil para Punakawan, para penuntun batin yang selama ini membersamainya: Semar yang arif bijaksana, Gareng yang setya, Petruk yang cerdik, serta Bagong yang lugu namun jujur.
+Sebelum memulai perjalanannya, Anoman memanggil para Punakawan, para penuntun batin yang selama ini membersamainya: Semar yang arif bijaksana, Gareng yang setya, Petruk yang cerdik, serta Bagong yang lugu namun jujur. <br />
 
 <hr>
 
