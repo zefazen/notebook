@@ -13,3 +13,103 @@
     Jejak langkah pikiran yang sengaja dibiarkan tak beraturan. Sebuah perjalanan yang membawamu menyelami makna dalam satu waktu lalu merayakan hal-hal tak masuk akal di lembar berikutnya.
   </p>
 </div>
+
+<div class="nb-hero-icons">
+  <button onclick="openMessage()" class="nb-social-btn" aria-label="Kirim Pesan" title="Kirim Pesan">
+    <i class="ph--chat-circle-dots"></i>
+  </button>
+  <button onclick="toggleTheme()" class="nb-social-btn nb-theme-btn" aria-label="Ganti Tema" title="Ganti Tema">
+    <i id="theme-icon" class="ph--lightbulb"></i>
+  </button>
+</div>
+
+  <header class="nb-hero-section">
+    <h1 class="nb-main-title"><a href="https://zefazen.github.io/notebook">Notebook</a></h1>
+    <div class="nb-hero-icons">
+      <nav class="nb-desktop-menu">
+        <a href="#tentang-penulis" class="nb-menu-link">Tentang</a>
+        <a href="/search" class="nb-menu-link">Cari</a>
+        <a href="" class="nb-menu-link">Baca Acak</a>
+        <a href="" class="nb-menu-link">Bagikan</a>
+      </nav>
+      <div class="nb-dropdown-wrapper">
+        <a href="#tentang-penulis" class="nb-social-btn" aria-label="Tentang Penulis" title="Tentang Penulis">
+          <i class="ph--info"></i>
+        </a>
+        <button class="nb-social-btn nb-static nb-dropdown-toggle" aria-label="Opsi lainnya" title="Opsi lainnya">
+          <i class="ph--option"></i>
+        </button>
+        <ul class="nb-dropdown-menu">
+          <li class="nb-mobile-only"><a href="" aria-label="Pencarian" title="Pencarian">Cari</a></li>
+          <li><a href="" target="_blank" aria-label="Desain Grafis" title="Desain Grafis">Design Book</a></li>
+          <li><a href="" aria-label="Baca Acak" title="Baca Acak">Baca Acak</a></li>
+          <li><a href="" aria-label="Bagikan halaman" title="Bagikan halaman">Bagikan</a></li>
+          <li><a href="" aria-label="Arsip" title="Arsip">Arsip</a></li>
+          <li><a href="" aria-label="Kategori" title="Kategori">Kategori</a></li>
+          <li><a href="" aria-label="Tags" title="Tags">Penanda</a></li>
+          <li><a href="" aria-label="RSS" title="RSS">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+<style>
+
+.nb-quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.nb-action-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #526178;
+  background: #ffffff;
+  border: 1.5px solid #cddcf0;
+  border-radius: 20px; /* Bentuk kapsul penuh */
+  padding: 4px 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 40, 100, 0.01);
+}
+
+.nb-visitor-pill {
+  display: inline-flex;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 0.76rem !important;
+  font-weight: 600 !important;
+  gap: 6px;
+  padding: 4px 12px;
+  border: 1.5px solid #cddcf0;
+  border-radius: 20px;
+  background: #ffffff;
+  color: #526178;
+  cursor: default;
+}
+.nb-visitor-pill.blue {
+  background: #0066ff;
+}
+.nb-badge-img {
+  height: 18px;
+  display: block;
+}
+.nb-count {
+  font-weight: 700;
+  color: #0366d6;
+}
+.nb-action-btn:hover {
+  background: linear-gradient(180deg, #ffffff 0%, #edf4fc 100%);
+  border-color: #0066ff;
+  color: #0366d6;
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 12px rgba(0, 102, 255, 0.08);
+}
+</style>
