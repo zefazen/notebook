@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- 
+  ZefaZen's 📒Notebook
+  
+  Membaca lembaran yang sengaja dibiarkan
+  terbuka tanpa garis pembatas.
+-->
+<html lang="id">
+<head>
+  <title>Notebook by ZefaZen</title>
+  <meta name="description" content="Jejak langkah pikiran tak beraturan, dari renungan makna hingga hal tak masuk akal." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#0366d6" />
+  <meta name="msapplication-TileColor" content="#0366d6" />
+  <meta name="msapplication-TileImage" content="https://zefazen.github.io/notebook/assets/img/notebook.PNG" />
+  <meta content='IE=edge' http-equiv='X-UA-Compatible' />
+  <meta charset='UTF-8' />
+  <!-- CSS ======================================================= -->
+  <link rel="stylesheet" href="./assets/css/notebook.css" />
+  <link rel="stylesheet" href="./assets/css/iconbook.css" />
+  <!-- OpenGraph-Facebook ======================================== -->
+	<meta property="og:url" content="https://zefazen.github.io/notebook" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Notebook by ZefaZen" />
+  <meta property="og:site_name" content="Notebook by ZefaZen" />
+  <meta property="og:description" content="Jejak langkah pikiran tak beraturan, dari renungan makna hingga hal tak masuk akal." />
+  <meta property="og:image:alt" content="Notebook by ZefaZen" />
+  <meta property="og:image" content="https://zefazen.github.io/notebook/assets/img/opengraph.JPG" />
+  <!-- OpenGraph-Twitter ========================================= -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content="zefazen.github.io" />
+  <meta property="twitter:url" content="https://zefazen.github.io/notebook" />
+  <meta name="twitter:title" content="Notebook by ZefaZen" />
+  <meta name="twitter:description" content="Jejak langkah pikiran tak beraturan, dari renungan makna hingga hal tak masuk akal." />
+  <meta name="twitter:image:alt" content="Notebook by ZefaZen" />
+  <meta name="twitter:image" content="https://zefazen.github.io/notebook/assets/img/opengraph.JPG" />
+  <!-- Google-Fonts ============================================== -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <!-- Favicons ================================================== -->
+	<link rel="icon" sizes="any" href="./assets/img/icon/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="./assets/img/icon/favicon.svg" />
+  <link rel="icon" type="image/png" href="./assets/img/notebook.PNG" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icon/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icon/apple-touch-icon.png" />
+  <link rel="manifest" href="./assets/img/icon/site.webmanifest" />
+</head>
+<body>
+  <!-- Pembuka ================================================= -->
+  <header class="nb-hero-section">
+    <h1 class="nb-main-title"><a href="https://zefazen.github.io/notebook">Notebook</a></h1>
+    <div class="nb-hero-icons">
+      <nav class="nb-desktop-menu">
+        <a href="#tentang-penulis" class="nb-menu-link">Tentang</a>
+        <button onclick="randomNote()" class="nb-menu-link" title="Sorot catatan acak">Baca Acak</button>
+        <button onclick="sharePage()" class="nb-menu-link" title="Bagikan halaman ini">Bagikan</button>
+      </nav>
+      <div class="nb-dropdown-wrapper">
+        <a href="#tentang-penulis" class="nb-social-btn" aria-label="Tentang Penulis" title="Tentang Penulis"><i class="ph--info"></i></a>
+        <button class="nb-social-btn nb-static nb-dropdown-toggle" aria-label="Opsi lainnya" title="Opsi lainnya"><i class="ph--option"></i></button>
+        <ul class="nb-dropdown-menu">
+          <li><button onclick="randomNote()" title="Sorot catatan acak"><i class="ph--shuffle"></i>Baca Acak</button></li>
+          <li><button onclick="sharePage()" title="Bagikan halaman ini"><i class="ph--share"></i>Bagikan</button></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Ringkasan ================================================= -->
+  <p class="nb-desc">
+    Jejak langkah pikiran yang sengaja dibiarkan tak beraturan. Sebuah perjalanan yang membawamu menyelami makna dalam satu waktu lalu merayakan hal-hal tak masuk akal di lembar berikutnya.
+  </p>
+  
+  <!-- Catatan =================================================== -->
+  <div class="nb-row">
+    <a id="anoman" href="./serat-lakon-anoman" class="nb-card">
+      <div>
+        <div class="nb-header">
+          <i class="ph--note"></i>
+          <span class="nb-date">Jum, 6 Feb 2026</span>
+        </div>
+        <h3 class="nb-title">Serat Lakon Anoman</h3>
+        <p class="nb-summary">Dari gelap jadi terang. Sang perkasa dari legenda.</p>
+      </div>
+      <div class="nb-tags">
+        <span class="nb-tag">#wayang</span><span class="nb-tag">#dongeng</span>
+        <span class="nb-tag">#ceritarakyat</span>
+      </div>
+    </a>
+    <a id="prolog" href="./prolog-dari-sebuah-akhir" class="nb-card">
+      <div>
+        <div class="nb-header">
+          <i class="ph--note"></i>
+          <span class="nb-date">Min, 29 Jun 2025</span>
+        </div>
+        <h3 class="nb-title">Prolog dari Sebuah Akhir</h3>
+        <p class="nb-summary">Sebuah puisi untukmu, penuh dengan romansa.</p>
+      </div>
+      <div class="nb-tags">
+        <span class="nb-tag">#romansa</span><span class="nb-tag">#puisipagi</span>
+        <span class="nb-tag">#nasihat</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- Navigasi ================================================== -->
+  <div class="nb-scroll-btn">
+    <button onclick="scrollToTop()" class="nb-scroll" aria-label="Scroll ke atas">
+      <i class="ph--caret-up"></i>
+    </button>
+    <button onclick="scrollToBottom()" class="nb-scroll" aria-label="Scroll ke bawah">
+      <i class="ph--caret-down"></i>
+    </button>
+  </div>
+
+  <!-- Tentang Penulis =========================================== -->
+  <footer class="nb-footer-container" id="tentang-penulis">
+    <div class="nb-author-card">
+      <div class="nb-header">
+        <span class="nb-author-label">Tentang Penulis</span>
+      </div>
+      <div class="nb-author-profile">
+        <img src="./assets/img/profile/IMG_20240516_080616.JPG" alt="ZefaZen" class="nb-author-avatar" />
+        <div class="nb-author-info">
+          <h3 class="nb-author-name">ZefaZen</h3>
+          <div class="nb-author-socials">
+            <a href="https://zefazen.github.io" target="_blank" class="nb-social-btn" aria-label="Website" title="Website"><i class="ph--website"></i></a>
+            <a href="https://github.com/zefazen" target="_blank" class="nb-social-btn" aria-label="Github" title="GitHub"><i class="ph--github"></i></a>
+            <a href="https://instagram.com/zzefazen" target="_blank" class="nb-social-btn" aria-label="Instagram" title="Instagram"><i class="ph--instagram"></i></a>
+            <a href="" target="_blank" class="nb-social-btn" aria-label="WeChat" title="WeChat"><i class="ph--wechat"></i></a>
+            <a href="mailto:zenulhaqzefa@gmail.com" target="_blank" class="nb-social-btn" aria-label="Email" title="Email"><i class="ph--email"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="nb-author-bio">
+        "Sering kali ia menenggelamkan diri dalam lamunan, bukan untuk melarikan diri, melainkan memungut kepingan ide yang berserakan. Baginya, batas antara realitas dan imajinasi hanyalah garis tipis yang dengan senang hati ia lewati untuk meracik logika, sejarah, hingga ironi menjadi sebuah rekam jejak yang abadi."
+      </p>
+      <hr class="nb-divider" />
+      <div class="nb-footer-note">
+        Sebagaimana riuhnya isi kepala, catatan ini tak pernah luput dari salah dan lupa. Saluran komunikasi selalu terbuka bagi siapa pun yang ingin meluruskan fakta atau memberi masukan
+      </div>
+    </div>
+  </footer>
+
+  <!-- Notifikasi ================================================ -->
+  <div id="nb-toast" class="nb-toast"></div>
+  <!-- JavaScript ================================================ -->
+  <script src="./assets/js/notebook.js"></script>
+</body>
+</html>
