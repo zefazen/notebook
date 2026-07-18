@@ -1,58 +1,92 @@
-// AKSI CEPAT
+// ========================= NOTEBOOK ==========================
+// -------------------------------------------------------------
+// DROPDOWN ====================================================
+document.addEventListener('DOMContentLoaded', () => {
+  const dropdownToggle = document.querySelector('.nb-dropdown-toggle');
+  const dropdownMenu = document.querySelector('.nb-dropdown-menu');
+  const dropdownWrapper = document.querySelector('.nb-dropdown-wrapper');
+  if (dropdownToggle && dropdownMenu) {
+    dropdownToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      dropdownMenu.classList.toggle('nb-show');
+    });
+    document.addEventListener('click', (e) => {
+      if (!dropdownWrapper.contains(e.target)) {
+        dropdownMenu.classList.remove('nb-show');
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        dropdownMenu.classList.remove('nb-show');
+      }
+    });
+  }
+  // debug
+  // document.querySelector('.nb-dropdown-menu')?.classList.add('nb-show');
+});
+// SHUFFLE =====================================================
+let lastToastTime = 0;
+let toastCooldown = null;
 
-// 1. Baca Acak
 function randomNote() {
   const cards = document.querySelectorAll('.nb-card');
   if (cards.length === 0) {
-    showToast("Belum ada catatan yang tersedia.");
+    if (typeof showToast === "function") showToast("(╥﹏╥) Belum ada catatan..");
     return;
   }
+  cards.forEach(card => card.classList.remove('nb-highlight'));
   const randomIndex = Math.floor(Math.random() * cards.length);
   const randomCard = cards[randomIndex];
-  const targetUrl = randomCard.getAttribute('href');
-  if (targetUrl && targetUrl !== '#' && targetUrl !== '') {
-    window.location.href = targetUrl;
+  randomCard.classList.add('nb-highlight');
+  randomCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  setTimeout(() => {
+    randomCard.classList.remove('nb-highlight');
+  }, 4000);
+  // Anti-Spam
+  const sekarang = Date.now();
+  clearTimeout(toastCooldown);
+  if (sekarang - lastToastTime < 2000) {
+    toastCooldown = setTimeout(() => {
+      if (typeof showToast === "function") {
+        showToast("( ˶°ㅁ°)!! Catatan acak terpilih!");
+      }
+      lastToastTime = Date.now();
+    }, 500);
   } else {
-    randomCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    const originalShadow = randomCard.style.boxShadow;
-    const originalBorder = randomCard.style.borderColor;
-    randomCard.style.transition = 'box-shadow 0.5s ease, border-color 0.5s ease';
-    randomCard.style.boxShadow = '0 0 0 4px rgba(0, 102, 255, 0.3), 0 8px 20px rgba(0, 40, 100, 0.1)';
-    randomCard.style.borderColor = '#0066ff';
-    setTimeout(() => {
-      randomCard.style.boxShadow = originalShadow;
-      randomCard.style.borderColor = originalBorder;
-    }, 2500);
+    if (typeof showToast === "function") {
+      showToast("( ˶°ㅁ°)!! Catatan acak terpilih!");
+    }
+    lastToastTime = sekarang;
   }
 }
 
-// 2. Bagikan Halaman Ini
+// SHARE =======================================================
 function sharePage() {
   const shareText = "Membaca lembaran yang sengaja dibiarkan terbuka tanpa garis pembatas. ZefaZen's Notebook:";
   const shareUrl = window.location.href;
   const fullCopyText = `${shareText} ${shareUrl}`;
-  
   navigator.clipboard.writeText(fullCopyText).then(() => {
-    showToast("Tautan berhasil disalin!");
+    showToast("( ദ്ദി ˙ᗜ˙ ) Tautan berhasil disalin!");
   }).catch(() => {
-    showToast("Gagal menyalin tautan.");
+    showToast("( ╹ -╹)? Gagal menyalin tautan.");
   });
 }
-
-// NAVIGASI
+// SCROLL ======================================================
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 function scrollToBottom() {
   window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 }
-
-// NOTIFIKASI
+// TOAST =======================================================
 function showToast(message) {
   const toast = document.getElementById('nb-toast');
   toast.textContent = message;
   toast.classList.add('show');
   setTimeout(() => {
     toast.classList.remove('show');
-  }, 3000);
+  }, 4000);
 }
+// =============================================================
+// -------------------------------------------------------------
+// ============================ END ============================
