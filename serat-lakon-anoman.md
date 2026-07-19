@@ -1,5 +1,11 @@
-### Serat Lakon Anoman
-> Dari gelap jadi terang. Sang perkasa dari legenda.
+## Serat Lakon Anoman
+
+> **Sen, 13 Juli 2026**  
+> `#wayang` `#dongeng` `#ceritarakyat`
+>
+> *Dari gelap jadi terang. Sang perkasa dari legenda.*
+
+---
 
 Pernahkah sebuah *event* di dalam gim membuatmu tertegun hingga lupa waktu?
 
@@ -11,11 +17,9 @@ Narasi dan ilustrasinya begitu memikat hingga saya perlu mendokumentasikan dan m
 
 <hr>
 
-<h4>Serat Lakon #1</h4>
+<h3>Serat Lakon #1</h3>
 
-<br />
-
-<img src="./assets/img/anoman/serat-lakon-01.JPG" alt="Serat Lakon 1" style="width: 150px;height:150px;margin-bottom:5px;">
+<img src="./assets/img/anoman/serat-lakon-01.JPG" alt="Serat Lakon 1" style="width: 175px;height:175px;">
 
 <br />
 
@@ -42,9 +46,9 @@ Sebelum memulai perjalanannya, Anoman memanggil para Punakawan, para penuntun ba
 
 <hr>
 
-#### Serat Lakon #2
+<h3>Serat Lakon #2</h3>
 
-<img src="./assets/img/anoman/serat-lakon-02.JPG" alt="Serat Lakon 2" style="width: 150px;height:150px;margin-bottom:5px;">
+<img src="./assets/img/anoman/serat-lakon-02.JPG" alt="Serat Lakon 2" style="width: 175px;height:175px;">
 
 <br />
 
@@ -78,9 +82,9 @@ Tanpa menoleh, Anoman kembali terbang, menembus angin dan awan, menuju Alengka.
 
 <hr>
 
-#### Serat Lakon #3
+<h3>Serat Lakon #3</h3>
 
-<img src="./assets/img/anoman/serat-lakon-03.JPG" alt="Serat Lakon 3" style="width: 150px;height:150px;margin-bottom:5px;">
+<img src="./assets/img/anoman/serat-lakon-03.JPG" alt="Serat Lakon 3" style="width: 175px;height:175px;">
 
 <br />
 
@@ -112,9 +116,9 @@ Pukulan demi pukulan menghantam dari dalam tubuh Wilkataksini. Tak sanggup menah
 
 <hr>
 
-#### Serat Lakon #4
+<h3>Serat Lakon #4</h3>
 
-<img src="./assets/img/anoman/serat-lakon-04.JPG" alt="Serat Lakon 4" style="width: 150px;height:150px;margin-bottom:5px;">
+<img src="./assets/img/anoman/serat-lakon-04.JPG" alt="Serat Lakon 4" style="width: 175px;height:175px;">
 
 <br />
 
@@ -150,9 +154,9 @@ Awalnya Dewi Sinta ragu, hingga Anoman menunjukkan pusaka tanda pengenal beserta
 
 <hr>
 
-#### Serat Lakon #5
+<h3>Serat Lakon #5</h3>
 
-<img src="./assets/img/anoman/serat-lakon-05.JPG" alt="Serat Lakon 5" style="width: 150px;height:150px;margin-bottom:5px;">
+<img src="./assets/img/anoman/serat-lakon-05.JPG" alt="Serat Lakon 5" style="width: 175px;height:175px;">
 
 <br />
 
@@ -226,17 +230,17 @@ Pertarungan sengit pun berkobar di tengah reruntuhan Taman Soka, menandai awal k
 
 <hr>
 
-#### Serat Lakon #6
+<h3>Serat Lakon #6</h3>
 
-<img src="./assets/img/anoman/serat-lakon-06.JPG" alt="Serat Lakon 6" style="width: 150px;height:150px;margin-bottom:5px;">
+<img src="./assets/img/anoman/serat-lakon-06.JPG" alt="Serat Lakon 6" style="width: 175px;height:175px;">
 
 <br />
 
 <hr>
 
-#### Serat Lakon #7
+<h3>Serat Lakon #7</h3>
 
-<img src="./assets/img/anoman/serat-lakon-07.JPG" alt="Serat Lakon 7" style="width: 150px;height:150px;margin-bottom:5px;">
+<img src="./assets/img/anoman/serat-lakon-07.JPG" alt="Serat Lakon 7" style="width: 175px;height:175px;">
 
 <br />
 

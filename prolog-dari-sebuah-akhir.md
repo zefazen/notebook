@@ -1,4 +1,11 @@
-### Prolog dari Sebuah Akhir
+---
+title: Prolog dari Sebuah Akhir
+date: 2025-06-29
+summary: Sebuah puisi untukmu, penuh dengan romansa.
+tags: [romansa, puisipagi, nasihat]
+---
+
+## Prolog dari Sebuah Akhir
 Sebuah puisi untukmu, penuh dengan romansa.
 
 **24. Mentari ½ Lingkar**<br />
