@@ -25,8 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // document.querySelector('.nb-dropdown-menu')?.classList.add('nb-show');
 });
 // SHUFFLE =====================================================
-let lastToastTime = 0;
+let lastClickTime = 0;
 let toastCooldown = null;
+let spamCounter = 0;
 
 function randomNote() {
   const cards = document.querySelectorAll('.nb-card');
@@ -42,22 +43,28 @@ function randomNote() {
   setTimeout(() => {
     randomCard.classList.remove('nb-highlight');
   }, 4000);
-  // Anti-Spam
+  // Easter Egg
   const sekarang = Date.now();
   clearTimeout(toastCooldown);
-  if (sekarang - lastToastTime < 2000) {
+  // spam
+  if (sekarang - lastClickTime < 1500) {
+    spamCounter++;
     toastCooldown = setTimeout(() => {
       if (typeof showToast === "function") {
-        showToast("( ˶°ㅁ°)!! Catatan acak terpilih!");
+        // ngambek
+        if (spamCounter >= 3) {
+          showToast("SUDAH CUKUP!");
+        }
       }
-      lastToastTime = Date.now();
+      spamCounter = 0;
     }, 500);
   } else {
+    spamCounter = 0;
     if (typeof showToast === "function") {
       showToast("( ˶°ㅁ°)!! Catatan acak terpilih!");
     }
-    lastToastTime = sekarang;
   }
+  lastClickTime = sekarang;
 }
 
 // SHARE =======================================================
