@@ -14,7 +14,8 @@ html {
 .nb-hero-section,
 .nb-desc,
 .nb-row,
-.nb-footer-container {
+.nb-footer-container,
+.nb-clap {
   width: 100%;
   max-width: 420px;
   min-width: 320px;
@@ -402,6 +403,57 @@ html {
   border-bottom-style: solid;
 }
 
+/* Apresiasi ================================================= */
+.nb-clap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.nb-clap-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  background: #fcfdfe;
+  border: 1.5px solid #cddcf0;
+  border-radius: 14px;
+  padding: 18px 22px 12px 22px;
+  box-shadow: 0 4px 12px rgba(0, 40, 100, 0.03);
+  box-sizing: border-box;
+}
+.nb-clap-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  text-align: left;
+}
+.nb-clap-title {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #526178;
+  text-transform: uppercase;
+}
+.nb-clap-desc {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: #64748b;
+  line-height: 1.6;
+}
+.nb-clap-widget {
+  margin: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
 /* Navigasi/Saklar ============================================= */
 .nb-scroll-btn {
   position: fixed;
@@ -467,7 +519,8 @@ html {
   .nb-hero-section,
   .nb-desc,
   .nb-row,
-  .nb-footer-container {
+  .nb-footer-container,
+  .nb-clap {
     max-width: 660px;
     padding-left: 20px;
     padding-right: 20px;
@@ -497,6 +550,11 @@ html {
     flex-direction: row;
     gap: 16px;
   }
+  .nb-clap-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 /* 4. DESKTOP LAYOUT =========================================== */
@@ -504,7 +562,8 @@ html {
   .nb-hero-section,
   .nb-desc,
   .nb-row,
-  .nb-footer-container {
+  .nb-footer-container,
+  .nb-clap {
     max-width: 800px;
     padding-left: 24px;
     padding-right: 24px;
@@ -533,6 +592,11 @@ html {
   .nb-author-profile {
     flex-direction: row;
     gap: 16px;
+  }
+  .nb-clap-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
