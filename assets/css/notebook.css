@@ -5,11 +5,26 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  --safe-area-max-inset-bottom: env(safe-area-max-inset-bottom, 36px);
+  --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
 }
-html {
+body {
   scroll-behavior: smooth;
-  background-color: #fff;
+  background-color: #ffffff;
+  padding-bottom: var(--safe-area-inset-bottom);
 }
+body::after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--safe-area-inset-bottom);
+  background-color: #0056b3; 
+  pointer-events: none; 
+  z-index: 9999;
+}
+
 /* 2. MOBILE FIRST (DEFAULT) =================================== */
 .nb-hero-section,
 .nb-desc,
@@ -409,6 +424,8 @@ html {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  padding-bottom: var(--safe-area-max-inset-bottom);
+  bottom: calc(env(safe-area-inset-bottom, 0px) - env(safe-area-max-inset-bottom, 36px));
 }
 .nb-clap-card {
   display: flex;
@@ -452,6 +469,14 @@ html {
   align-items: center;
   flex-shrink: 0;
   transition: all 0.2s ease;
+}
+.nb-clap-widget.is-disabled {
+  cursor: not-allowed !important;
+}
+.nb-clap-widget.is-disabled > * {
+  pointer-events: none !important;
+  filter: grayscale(100%) !important;
+  opacity: 0.4 !important;
 }
 
 /* Navigasi/Saklar ============================================= */
