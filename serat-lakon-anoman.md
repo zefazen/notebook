@@ -1,11 +1,49 @@
+---
+title: Serat Lakon Anoman
+date: 2026-07-13
+summary: Dari gelap jadi terang. Sang perkasa dari legenda.
+tags: [wayang, dongeng, ceritarakyat]
+---
+
 ## Serat Lakon Anoman
 
-> **Sen, 13 Juli 2026**  
-> `#wayang` `#dongeng` `#ceritarakyat`
->
-> *Dari gelap jadi terang. Sang perkasa dari legenda.*
-
----
+<link rel="stylesheet" href="./assets/css/postinfo.css" />
+<div class="nb-post">
+  <div class="nb-postmeta">
+    <div class="meta-item meta-author">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+        <circle cx="12" cy="7" r="4"></circle>
+      </svg>
+      <span>Penulis: <strong>ZefaZen</strong></span>
+    </div>
+    <span class="meta-divider">•</span>
+    <div class="meta-item meta-date">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      <span>Sen, 13 Juli 2026</span>
+    </div>
+    <span class="meta-divider">•</span>
+    <div class="meta-item meta-tags">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+        <line x1="7" y1="7" x2="7.01" y2="7"></line>
+      </svg>
+      <div class="nb-posttags">
+        <span class="nb-tag">wayang</span>
+        <span class="nb-tag">dongeng</span>
+        <span class="nb-tag">ceritarakyat</span>
+      </div>
+    </div>
+  </div>
+  <div class="nb-postsum">
+    Dari gelap jadi terang. Sang perkasa dari legenda.
+  </div>
+</div><br />
 
 Pernahkah sebuah *event* di dalam gim membuatmu tertegun hingga lupa waktu?
 
@@ -17,9 +55,9 @@ Narasi dan ilustrasinya begitu memikat hingga saya perlu mendokumentasikan dan m
 
 <hr>
 
-<h3>Serat Lakon #1</h3>
+<h3>Serat Lakon #1</h3><br />
 
-<img src="./assets/img/anoman/serat-lakon-01.JPG" alt="Serat Lakon 1" style="width: 175px;height:175px;">
+<img src="./assets/img/anoman/serat-lakon-01.JPG" alt="Serat Lakon 1" style="width: 75%;"> <br />
 
 <br />
 
@@ -46,9 +84,9 @@ Sebelum memulai perjalanannya, Anoman memanggil para Punakawan, para penuntun ba
 
 <hr>
 
-<h3>Serat Lakon #2</h3>
+<h3>Serat Lakon #2</h3><br />
 
-<img src="./assets/img/anoman/serat-lakon-02.JPG" alt="Serat Lakon 2" style="width: 175px;height:175px;">
+<img src="./assets/img/anoman/serat-lakon-02.JPG" alt="Serat Lakon 2" style="width: 75%;"> <br />
 
 <br />
 
@@ -82,9 +120,9 @@ Tanpa menoleh, Anoman kembali terbang, menembus angin dan awan, menuju Alengka. 
 
 <hr>
 
-<h3>Serat Lakon #3</h3>
+<h3>Serat Lakon #3</h3><br />
 
-<img src="./assets/img/anoman/serat-lakon-03.JPG" alt="Serat Lakon 3" style="width: 175px;height:175px;">
+<img src="./assets/img/anoman/serat-lakon-03.JPG" alt="Serat Lakon 3" style="width: 75%;"> <br />
 
 <br />
 
@@ -116,9 +154,9 @@ Pukulan demi pukulan menghantam dari dalam tubuh Wilkataksini. Tak sanggup menah
 
 <hr>
 
-<h3>Serat Lakon #4</h3>
+<h3>Serat Lakon #4</h3><br />
 
-<img src="./assets/img/anoman/serat-lakon-04.JPG" alt="Serat Lakon 4" style="width: 175px;height:175px;">
+<img src="./assets/img/anoman/serat-lakon-04.JPG" alt="Serat Lakon 4" style="width: 75%;"> <br />
 
 <br />
 
@@ -154,9 +192,9 @@ Awalnya Dewi Sinta ragu, hingga Anoman menunjukkan pusaka tanda pengenal beserta
 
 <hr>
 
-<h3>Serat Lakon #5</h3>
+<h3>Serat Lakon #5</h3><br />
 
-<img src="./assets/img/anoman/serat-lakon-05.JPG" alt="Serat Lakon 5" style="width: 175px;height:175px;">
+<img src="./assets/img/anoman/serat-lakon-05.JPG" alt="Serat Lakon 5" style="width: 75%;"> <br />
 
 <br />
 
@@ -230,9 +268,9 @@ Pertarungan sengit pun berkobar di tengah reruntuhan Taman Soka, menandai awal k
 
 <hr>
 
-<h3>Serat Lakon #6</h3>
+<h3>Serat Lakon #6</h3><br />
 
-<img src="./assets/img/anoman/serat-lakon-06.JPG" alt="Serat Lakon 6" style="width: 175px;height:175px;">
+<img src="./assets/img/anoman/serat-lakon-06.JPG" alt="Serat Lakon 6" style="width: 75%;"> <br />
 
 <br />
 
@@ -307,9 +345,9 @@ Kesabaran Rahwana pun runtuh. Dengan suara menggelegar ia memberi perintah, <br 
 
 <hr>
 
-<h3>Serat Lakon #7</h3>
+<h3>Serat Lakon #7</h3><br />
 
-<img src="./assets/img/anoman/serat-lakon-07.JPG" alt="Serat Lakon 7" style="width: 175px;height:175px;">
+<img src="./assets/img/anoman/serat-lakon-07.JPG" alt="Serat Lakon 7" style="width: 75%;"> <br />
 
 <br />
 

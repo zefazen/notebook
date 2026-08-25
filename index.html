@@ -8,7 +8,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Notebook by ZefaZen</title>
   <meta name="description" content="Jejak langkah pikiran tak beraturan, dari renungan makna hingga hal tak masuk akal." />
   <meta name="author" content="ZefaZen" />
@@ -37,11 +37,14 @@
   <meta name="twitter:description" content="Jejak langkah pikiran tak beraturan, dari renungan makna hingga hal tak masuk akal." />
   <meta name="twitter:image" content="https://zefazen.github.io/notebook/assets/img/opengraph.jpg" />
   <meta name="twitter:image:alt" content="Notebook by ZefaZen" />
-  <!-- APP-Browser =============================================== -->
-  <meta content='IE=edge' http-equiv='X-UA-Compatible' />
+  <!-- APP & Address Bar ========================================= -->
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0366d6" />
+  <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#0366d6" />
+  <meta name="msapplication-navbutton-color" content="#0366d6" />
   <meta name="msapplication-TileColor" content="#0366d6" />
   <meta name="msapplication-TileImage" content="https://zefazen.github.io/notebook/assets/img/notebook.png" />
   <!-- JSON-LD =================================================== -->
@@ -49,8 +52,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Blog",
+    "@id": "https://zefazen.github.io/notebook",
     "name": "Notebook by ZefaZen",
-    "url": "https://zefazen.github.io/notebook/",
+    "alternateName": "Notebook",
+    "url": "https://zefazen.github.io/notebook",
+    "image": "https://zefazen.github.io/notebook/assets/img/icon/android-chrome-512x512.png",
     "description": "Jejak langkah pikiran tak beraturan, dari renungan makna hingga hal tak masuk akal.",
     "inLanguage": "id-ID",
     "author": {
@@ -134,6 +140,34 @@
         <span class="nb-tag">#nasihat</span>
       </div>
     </a>
+    <a id="koma" href="./sembilan-koma-delapan" class="nb-card">
+      <div>
+        <div class="nb-header">
+          <i class="ph--note"></i>
+          <span class="nb-date">Sab, 4 Mei 2024</span>
+        </div>
+        <h3 class="nb-title">Sembilan Koma Delapan</h3>
+        <p class="nb-summary">Sebuah hitungan gravitasi untuk rindu yang melampaui kematian.</p>
+      </div>
+      <div class="nb-tags">
+        <span class="nb-tag">#musik</span><span class="nb-tag">#deemo</span>
+        <span class="nb-tag">#mili</span><span class="nb-tag">#interpretasi</span>
+      </div>
+    </a>
+    <a id="ramadhan" href="./ramadhan-penuh-berkah" class="nb-card">
+      <div>
+        <div class="nb-header">
+          <i class="ph--note"></i>
+          <span class="nb-date">Kam, 14 Apr 2022</span>
+        </div>
+        <h3 class="nb-title">Ramadhan Penuh Berkah</h3>
+        <p class="nb-summary">Tentang hidayah, ampunan, dan jalan untuk pulang.</p>
+      </div>
+      <div class="nb-tags">
+        <span class="nb-tag">#ramadhan</span><span class="nb-tag">#kajian</span>
+        <span class="nb-tag">#kuliahtujuhmenit</span>
+      </div>
+    </a>
   </div>
 
   <!-- Navigasi ================================================== -->
@@ -179,8 +213,8 @@
   <div class="nb-clap">
     <div class="nb-clap-card">
       <div class="nb-clap-info">
-        <span class="nb-clap-title">Suka dengan lembaran ini?</span>
-        <p class="nb-clap-desc">Tinggalkan tepukan hangat sebagai tanda kamu pernah singgah di sini.</p>
+        <span class="nb-clap-title">TERIMA KASIH TELAH SINGGAH</span>
+        <p class="nb-clap-desc">Waktu yang kamu luangkan adalah apresiasi terbaik. Tinggalkan tepukan sebagai sapaan bisu sebelum berlalu.</p>
       </div>
       <div class="nb-clap-widget" style="font-size: 22px;">
         <div
@@ -205,5 +239,25 @@
   <!-- JavaScript ================================================ -->
   <script src="./assets/js/notebook.js"></script>
   <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_cd03e41ce702f54700e8bfbb4f40f8"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const MAX_CLAPS = 5;
+      const STORAGE_KEY = "lyket_claps_notebook_catatan"; //lyket_claps_${NAMESPACE}_${BUTTON_ID}
+      const widgetContainer = document.querySelector(".nb-clap-widget");
+      let userClaps = parseInt(localStorage.getItem(STORAGE_KEY) || "0", 10);
+      function disableButton() {if (userClaps >= MAX_CLAPS) {widgetContainer.classList.add("is-disabled");}}
+      disableButton();
+      widgetContainer.addEventListener(
+        "click",
+        function (event) {
+          if (userClaps >= MAX_CLAPS) {event.stopImmediatePropagation();event.preventDefault();return;}
+          userClaps++;
+          localStorage.setItem(STORAGE_KEY, userClaps.toString());
+          if (userClaps >= MAX_CLAPS) {disableButton();}
+        },
+        true
+      );
+    });
+  </script>
 </body>
 </html>

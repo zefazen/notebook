@@ -6,7 +6,44 @@ tags: [romansa, puisipagi, nasihat]
 ---
 
 ## Prolog dari Sebuah Akhir
-Sebuah puisi untukmu, penuh dengan romansa.
+
+<link rel="stylesheet" href="./assets/css/postinfo.css" />
+<div class="nb-post">
+  <div class="nb-postmeta">
+    <div class="meta-item meta-author">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+        <circle cx="12" cy="7" r="4"></circle>
+      </svg>
+      <span>Penulis: <strong>ZefaZen</strong></span>
+    </div>
+    <span class="meta-divider">•</span>
+    <div class="meta-item meta-date">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      <span>Min, 29 Juni 2025</span>
+    </div>
+    <span class="meta-divider">•</span>
+    <div class="meta-item meta-tags">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+        <line x1="7" y1="7" x2="7.01" y2="7"></line>
+      </svg>
+      <div class="nb-posttags">
+        <span class="nb-tag">romansa</span>
+        <span class="nb-tag">puisipagi</span>
+        <span class="nb-tag">nasihat</span>
+      </div>
+    </div>
+  </div>
+  <div class="nb-postsum">
+    Sebuah puisi untukmu, penuh dengan romansa.
+  </div>
+</div><br />
 
 **24. Mentari ½ Lingkar**<br />
 Senyum mu merekah seindah mentari pagi yang menyapa :')
